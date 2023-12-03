@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relate - Connecting You to Opportunities</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4285f4;
+            color: white;
+            text-align: center;
+            padding: 2em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #4285f4;
+            margin-bottom: 1em;
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #4285f4;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #1967d2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 2em;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        #signup {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+        }
+
+        label {
+            font-size: 1.2em;
+        }
+
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        button[type="submit"] {
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .cta-button {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Relate - Connecting You to Opportunities</h1>
+    </header>
+
+    <section>
+        <p>Welcome to Relate, where goals meet connections!</p>
+        <p>Our platform is designed to seamlessly integrate goal-setting, learning, mentorship, and social connections.</p>
+        <p>Join us on a journey to enhance your personal and professional growth.</p>
+        <a href="#signup" class="cta-button">Sign Up for Updates</a>
+
+        <!-- Placeholder for an image -->
+        <img src="placeholder-image.jpg" alt="Relate App Screenshot">
+    </section>
+
+    <section id="signup">
+        <h2>Be the First to Experience Relate!</h2>
+        <p>Sign up below to receive updates and exclusive early access to our platform.</p>
+        <!-- Add your sign-up form or link to your preferred sign-up mechanism -->
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit" class="cta-button">Sign Up</button>
+        </form>
+    </section>
+</body>
+
+</html>
